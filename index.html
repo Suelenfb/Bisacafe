@@ -6,7 +6,7 @@
 <title>Bisa Café | Café da manhã e brunch em Santo André, São Paulo</title>
 <meta name="description" content="Café da manhã e brunch feitos na hora em Santo André, São Paulo. Peça pelo WhatsApp e retire sem fila no Bisa Café.">
 <meta property="og:title" content="Bisa Café | Café da manhã e brunch em Santo André">
-<meta property="og:description" content="Café da manhã e brunch feitos na hora em Santo André, São Paulo. Peça pelo WhatsApp pra retirada.">
+<meta property="og:description" content="Café da manhã e brunch feitos na hora em Santo André, São Paulo.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <!-- Fallback sem JS: marca o html como "js" o quanto antes; o estado escondido da animação só vale sob html.js -->
@@ -24,7 +24,7 @@
 <header class="topo">
   <div class="container topo-linha">
     <a href="#inicio" class="logo">
-      <img src="./images/logo.png" alt="Bisa Café" class="logo-icone" width="100" height="100">
+      <img src="./images/logo.png" alt="Bisa Café" class="logo-icone" width="100" height="100" fetchpriority="high">
     </a>
     <nav class="menu-topo" aria-label="Seções do site">
       <a href="#essencia-da-marca">Sobre a marca</a>
@@ -69,7 +69,7 @@
     <div class="container">
       <div class="bloco-com-imagem">
         <div class="bloco-imagem anima" style="--i:0">
-          <img src="./images/foto-espresso-graos.jpeg" alt="Xícara de café do Bisa Café com grãos ao fundo" loading="lazy">
+          <img src="./images/foto-espresso-graos.webp" alt="Xícara de café do Bisa Café com grãos ao fundo" loading="high">
         </div>
         <div class="conteudo-institucional anima" style="--i:1">
           <h2>Do grão <span class="cor-destaque">à xícara</span>, tudo acontece aqui!</h2>
@@ -84,7 +84,7 @@
     <div class="container">
       <div class="bloco-com-imagem">
         <div class="bloco-imagem anima" style="--i:0">
-          <img src="./images/foto-graos-torra.jpeg" alt="Grãos de café na torrefação artesanal do Bisa Café" loading="lazy">
+          <img src="./images/foto-graos-torra.webp" alt="Grãos de café na torrefação artesanal do Bisa Café" loading="high">
         </div>
         <div class="conteudo-institucional anima" style="--i:1">
           <h2>O que é a Bisa Café</h2>
@@ -100,7 +100,7 @@
     <div class="container">
       <div class="bloco-com-imagem bloco-com-imagem--inverso">
         <div class="bloco-imagem anima" style="--i:0">
-          <img src="./images/foto-espresso-graos.jpeg" alt="Espresso do Bisa Café com saco de grãos ao fundo, remetendo à origem artesanal" loading="lazy">
+          <img src="./images/foto-espresso-graos.webp" alt="Espresso do Bisa Café com saco de grãos ao fundo, remetendo à origem artesanal" loading="high">
         </div>
         <div class="conteudo-institucional anima" style="--i:1">
           <h2>A história da marca</h2>
@@ -129,7 +129,7 @@
     <div class="container">
       <div class="bloco-com-imagem">
         <div class="bloco-imagem anima" style="--i:0">
-          <img src="./images/foto-interior-mesa.jpeg" alt="Mesa posta no Bisa Café com quiche e café, clima acolhedor" loading="lazy">
+          <img src="./images/foto-interior-mesa.webp" alt="Mesa posta no Bisa Café com quiche e café, clima acolhedor" loading="high">
         </div>
         <div class="conteudo-institucional anima" style="--i:1">
           <h2>Nossos valores</h2>
@@ -145,7 +145,7 @@
     <div class="container">
       <div class="bloco-com-imagem bloco-com-imagem--inverso">
         <div class="bloco-imagem anima" style="--i:0">
-          <img src="./images/foto-ambiente-salao.jpeg" alt="Salão do Bisa Café com mesas e cadeiras, ambiente acolhedor" loading="lazy">
+          <img src="./images/foto-ambiente-salao.webp" alt="Salão do Bisa Café com mesas e cadeiras, ambiente acolhedor" loading="high">
         </div>
         <div class="conteudo-institucional anima" style="--i:1">
           <h2>Filosofia da empresa</h2>
@@ -160,7 +160,7 @@
     <div class="container">
       <div class="secao-cabecalho">
         <h2 class="anima" style="--i:0">Por que passar no Bisa Café</h2>
-        <p class="anima" style="--i:1">Um café de bairro pra chamar de seu, aberto pra manhã de todo dia.</p>
+        <p class="anima" style="--i:1">Um café de bairro pra chamar de seu, tudo feito na hora e aberto pra manhã de todo dia.</p>
       </div>
       <div class="cards">
         <article class="card anima" style="--i:0">
@@ -227,9 +227,10 @@
             Cafés
           </h3>
           <ul>
-            <li><span class="item-nome">Coado da casa</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Cappuccino</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Latte</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
+            <li><span class="item-nome">Coado da casa</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Cappuccino</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Latte</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Chá</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
           </ul>
         </div>
         <div class="categoria anima" style="--i:1">
@@ -240,9 +241,9 @@
             Brunch
           </h3>
           <ul>
-            <li><span class="item-nome">Ovos mexidos com torrada</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Tapioca de queijo</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Bowl de iogurte com granola</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
+            <li><span class="item-nome">Croissant</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Pão de queijo</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Waffle</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
           </ul>
         </div>
         <div class="categoria anima" style="--i:2">
@@ -254,9 +255,9 @@
             Doces
           </h3>
           <ul>
-            <li><span class="item-nome">Bolo de cenoura com brigadeiro</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Pão de mel</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
-            <li><span class="item-nome">Torta de banana</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[PLACEHOLDER: R$]</span></li>
+            <li><span class="item-nome">Bolo do dia</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Brownies</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
+            <li><span class="item-nome">Torta de banana</span><span class="item-pontos" aria-hidden="true"></span><span class="item-preco">[R$]</span></li>
           </ul>
         </div>
       </div>
@@ -272,13 +273,13 @@
       </div>
       <div class="galeria-grade">
         <div class="galeria-bloco anima" style="--i:0">
-          <img src="./images/foto-torta-banana.jpeg" alt="Fatia de torta de banana com café servida no Bisa Café" loading="lazy">
+          <img src="./images/foto-torta-banana.webp" alt="Fatia de torta de banana com café servida no Bisa Café" loading="high">
         </div>
         <div class="galeria-bloco anima" style="--i:1">
-          <img src="./images/foto-cha-folhas.jpeg" alt="Chá servido no Bisa Café ao lado de folhas de café" loading="lazy">
+          <img src="./images/foto-cha-folhas.webp" alt="Chá servido no Bisa Café ao lado de folhas de café" loading="high">
         </div>
         <div class="galeria-bloco anima" style="--i:2">
-          <img src="./images/foto-latte-caramelo.jpeg" alt="Bebida especial com calda de caramelo e chantili do Bisa Café" loading="lazy">
+          <img src="./images/foto-latte-caramelo.webp" alt="Bebida especial com calda de caramelo e chantili do Bisa Café" loading="high">
         </div>
       </div>
     </div>
@@ -303,28 +304,28 @@
         </button>
         <div class="avaliacao-trilho" id="avaliacaoTrilho" tabindex="0" aria-label="Avaliações de clientes no Google, arraste para o lado para ver mais">
           <figure class="avaliacao-card avaliacao-print anima" style="--i:0">
-            <img src="./images/avaliação1.png" alt="Avaliação de 5 estrelas de Vanessa Marques no Google, contando que já foi umas 3 vezes e elogiando o ambiente, os cafés e a torta de frango" loading="lazy">
+            <img src="./images/avaliação1.png" alt="Avaliação de 5 estrelas de Vanessa Marques no Google, contando que já foi umas 3 vezes e elogiando o ambiente, os cafés e a torta de frango" loading="high">
           </figure>
           <figure class="avaliacao-card avaliacao-print anima" style="--i:1">
-            <img src="./images/avaliação2.png" alt="Avaliação de 5 estrelas de Sara Massari no Google, elogiando o atendimento, os preços justos e o menu diversificado do Bisa Café" loading="lazy">
+            <img src="./images/avaliação2.png" alt="Avaliação de 5 estrelas de Sara Massari no Google, elogiando o atendimento, os preços justos e o menu diversificado do Bisa Café" loading="high">
           </figure>
          <figure class="avaliacao-card avaliacao-print anima" style="--i:2">
-            <img src="./images/avaliação3.png" alt="Avaliação de 5 estrelas de Celi Gonçalo no Google, elogiando o café, o waffle de pão de queijo, o pain au chocolat e o frapê de pistache" loading="lazy">
+            <img src="./images/avaliação3.png" alt="Avaliação de 5 estrelas de Celi Gonçalo no Google, elogiando o café, o waffle de pão de queijo, o pain au chocolat e o frapê de pistache" loading="high">
           </figure>
           <figure class="avaliacao-card avaliacao-print anima" style="--i:3">
-            <img src="./images/avaliação4.png" alt="Avaliação de 5 estrelas de Ednei no Google, elogiando a aula sobre cafés, a torra própria da casa e a opção de comprar café moído ou em grãos" loading="lazy">
+            <img src="./images/avaliação4.png" alt="Avaliação de 5 estrelas de Ednei no Google, elogiando a aula sobre cafés, a torra própria da casa e a opção de comprar café moído ou em grãos" loading="high">
           </figure>
           <figure class="avaliacao-card avaliacao-print anima" style="--i:4">
-            <img src="./images/avaliação5.png" alt="Avaliação de 5 estrelas de Jussara Uehara no Google, destacando os cafés moídos na hora e as opções de bolos, tortas e salgados" loading="lazy">
+            <img src="./images/avaliação5.png" alt="Avaliação de 5 estrelas de Jussara Uehara no Google, destacando os cafés moídos na hora e as opções de bolos, tortas e salgados" loading="high">
           </figure>
           <figure class="avaliacao-card avaliacao-print anima" style="--i:5">
-            <img src="./images/avaliação6.png" alt="Avaliação de 5 estrelas de Adriana Lombardo Meniz no Google, elogiando a apresentação dos grãos em latões, o aroma do café e o ambiente acolhedor" loading="lazy">
+            <img src="./images/avaliação6.png" alt="Avaliação de 5 estrelas de Adriana Lombardo Meniz no Google, elogiando a apresentação dos grãos em latões, o aroma do café e o ambiente acolhedor" loading="high">
           </figure>
           <figure class="avaliacao-card avaliacao-print anima" style="--i:6">
-            <img src="./images/avaliação7.png" alt="Avaliação de 5 estrelas de Cristiane Duarte no Google, elogiando o bolo de maçã com castanhas, o expresso tônica e o atendimento" loading="lazy">
+            <img src="./images/avaliação7.png" alt="Avaliação de 5 estrelas de Cristiane Duarte no Google, elogiando o bolo de maçã com castanhas, o expresso tônica e o atendimento" loading="high">
           </figure>
           <figure class="avaliacao-card avaliacao-print anima" style="--i:7">
-            <img src="./images/avaliação8.png" alt="Avaliação de 5 estrelas de Monique Moraes no Google, recomendando o frapê de pistache e o ambiente aconchegante e familiar da cafeteria" loading="lazy">
+            <img src="./images/avaliação8.png" alt="Avaliação de 5 estrelas de Monique Moraes no Google, recomendando o frapê de pistache e o ambiente aconchegante e familiar da cafeteria" loading="high">
           </figure>
         </div>
         <button type="button" class="carrossel-seta carrossel-seta--proxima" data-carrossel-proxima aria-label="Ver próxima avaliação">
@@ -392,7 +393,7 @@
             Como chegar
           </h3>
           <div class="local-foto">
-            <img src="./images/fachada-bisa-cafe.jpeg" alt="Fachada do Bisa Café, na esquina, com a placa redonda da marca" loading="lazy">
+            <img src="./images/fachada-bisa-cafe.webp" alt="Fachada do Bisa Café, na esquina, com a placa redonda da marca" loading="high">
           </div>
           <p>Rua Porto Alegre, 80 – Vila Assunção, Santo André – SP</p>
           <a class="link-maps" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Porto%20Alegre%2C%2080%2C%20Vila%20Assun%C3%A7%C3%A3o%2C%20Santo%20Andr%C3%A9%20-%20SP">Abrir no Google Maps</a>
